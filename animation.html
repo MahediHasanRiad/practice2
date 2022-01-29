@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .conteinar{
+            animation-name: riad;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            transition: all 3s;
+        }
+        .conteinar:hover{
+            background-color: rgb(5, 8, 8);
+            border-radius: 150px;
+            color: brown;
+        }
+        @keyframes riad {
+            0%{
+                top: 0px;
+            }
+            25%{
+                top: 250px;
+            }
+            100%{
+                left: 250px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conteinar">
+
+    </div>
+</body>
+</html>
